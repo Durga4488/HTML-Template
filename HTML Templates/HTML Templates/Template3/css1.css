@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 550px;
+    height: 765px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.header{
+    width:550px;
+    height: 100px;
+
+}
+.middleBody{
+    height: 490px;
+    width: 550px;
+
+}
+.footer{
+    height: 135px;
+    width: 550px;
+   background-color: #eaeaea;
+   margin-top: 3px;
+}
+.head1{
+    height: 50px;
+}
+.logo{
+    width: 50px;
+    margin: 14px;
+    float: left;
+    height: 40px
+}
+logo img {
+    float: left;
+}
+.name{
+    width:200px;
+padding-top: 20px;
+    float: left;
+
+}
+.logos{
+ margin-left: 70px;
+    width:200px;
+    float: left;
+}
+.log{
+    padding-top: 15px;
+    padding-right: 10px;
+    float:left;
+}
+.menu{
+    height: 40px;
+}
+ul {
+    margin:15px;
+    padding: 0px;
+}
+.blue{
+    background:url("images/homekey.jpg");
+}
+ul li{
+    border-top: 1px solid grey;
+    border-bottom:1px solid grey ;
+    border-radius: 2px;
+    border-left: 1px;
+    width: 84px;
+    height: 30px;
+    list-style: none;
+    font-size: 10px;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    background: url("./images/menuImage.jpg");
+}
+.image{
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.leftbox{
+    width: 160px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: url("./images/background1 copy.jpg")no-repeat;
+    margin-left: 16px;
+    margin-top: 8px;
+    padding-left: 0px;
+    padding-top: 15px;
+    float: left;
+}
+.leftbox p{
+    padding: 4px;
+}
+.leftbox p a{
+    color: #8cddfa;
+}
+.button{
+    background-color: #48cef4;
+    margin-left: 50px;
+    color:white;
+    border-radius: 5px;
+}
+.footer1{
+    width:250px;
+    height: 110px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background: url("./images/background1 copy.jpg");
+    float: left;
+    margin-top: 10px;
+}
+.footerHead{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.footerlogo{
+    padding-top: 15px;
+    margin-left: 15px;
+}
+.footerP{
+    margin-left: 75px;
+    margin-top: -50px;
+}
+.footerMenu{
+    width: 550px;
+    height: 30px;
+    background-color: #545454;
+    text-align:center;
+    color: white;
+
+}

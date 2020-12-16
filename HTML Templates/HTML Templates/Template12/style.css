@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000000;
+    font-weight: normal;
+    line-height: 24px;
+    background: #71726e;
+}
+a{
+    color: #072FCF;
+    text-decoration: underline;
+}
+.container {
+    width:951px;
+    background-color: orange;
+    margin: 0 auto;
+    background: url("./images/mid-shadow.jpg")repeat-y left top;
+    padding: 0;
+    overflow: hidden;
+}
+.img-div{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    line-height: 0px;
+    width: 6px;
+    float: left;
+}
+.main,.header{
+    margin: 0;
+    padding: 0;
+    width:939px;
+    float: left;
+}
+.nav-area{
+    margin: 0px;
+    padding: 0px;
+    width: 939px;
+    height: 54px;
+    float: left;
+    background: #000000;
+}
+.nav{
+    margin: 0px;
+    padding: 18px 0px 0px 30px;
+    list-style: none;
+}
+.nav li{
+    margin: 0px;
+    padding: 2px 18px 2px 18px;
+    font-family: Arial, Helvetica, Sans-Sarif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+    float: left;
+    display: block;
+    line-height: 12px;
+    border-left: 1px solid #373632;
+}
+
+.nav li a{
+    font-family: Arial, Helvetica, Sans-Sarif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+
+.nav li a:hover{
+    text-decoration: underline;
+}
+.banner{
+    margin: 0px;
+    padding: 0px;
+    width: 939px;
+    float: left;
+}
+.contect{
+    margin: 0px;
+    padding: 0px;
+    width: 939px;
+    float: left;
+
+}
+.left-div{
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    width: 236px;
+    float: left;
+}
+h3{
+    margin: 0px;
+    padding: 10px 10px 10px 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #811305;
+    font-weight: normal;
+    line-height: 30px;
+}
+.list-items{
+    margin: 0px;
+    padding: 0px 5px 0px 30px;
+    list-style: none;
+}
+.list-items li{
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    line-height: 24px;
+}
+.list-items li a{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #000000;
+    font-weight: normal;
+}
+.list-items  li a:hover{
+    text-decoration: none;
+}
+.right-div{
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    width: 703px;
+    float: left;
+}
+h1{
+    margin: 0px;
+    padding: 10px 30px 10px 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: #811305;
+    font-weight: normal;
+    line-height: 30px;
+}
+.text-1{
+    margin: 0px;
+    padding: 5px 30px 10px 40px;
+
+}
+.footer{
+    margin: 0px;
+    padding: 15px 0px 20px 0px;
+    width: 939px;
+    background: #D8D8D8;
+    float: left;
+}
+.footer p{
+    margin: 0px;
+    padding: 3px 0px 3px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    text-align: center;
+}

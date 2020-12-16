@@ -1,0 +1,94 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Utility Classes*/
+
+.img-responsive{
+    max-width: 100%;
+}
+
+
+.hero-image{
+    background: url(images/header-img.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.hero-wrapper{
+ color: white;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.form-code{
+    text-align: center;
+}
+.hero-wrapper h1{
+    font-size: 2.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-wrapper span{
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-code .post-code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+.form-code button{
+    width: 40%;
+    text-align: center;
+    background-color: #00bab1;
+    color: #fff;
+    padding: .6rem;
+    border: none;
+    border-radius: .3rem;
+    margin: 1rem auto 0rem;
+}
+
+
+/*Product*/
+
+.product{
+    width: 80%;
+    margin: 2rem auto;
+}
+.product-list-item{
+    float: left;
+    width:31.33%;
+    margin: .5rem;
+}
+
+@media screen and (max-width:700px){
+    .product-list-item{
+        width: 90%;
+        margin: 3rem auto;
+        float: none;
+    }
+}
+.clear{
+    clear: both;
+}
+
+footer{
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}

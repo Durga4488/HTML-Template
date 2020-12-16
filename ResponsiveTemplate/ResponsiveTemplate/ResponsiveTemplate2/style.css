@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%;
+    font-size: 16px;
+}
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("./images/pexels-photo-351448.jpeg")no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.contect{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.contect h1{
+  font-family:'Releway', Sans-Sarif ;
+    color: #f9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+.btn{
+    border-radius:9px;
+    font-family: 'Oswald',Sans-Sarif;
+    color: #036a81;
+    font-size: 135%;
+    padding: 10px 20px;
+    border:solid #036a81 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color:#fff;
+    border:solid #fff 3px;
+}
+P{
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: Sans-Sarif;
+}
+@media screen and(max-width:768px){
+    .contect h1{
+        font-size: 250%;
+    }
+    .btn{
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p{
+        font-size: 50%;
+        line-height: 10%;
+    }
+}

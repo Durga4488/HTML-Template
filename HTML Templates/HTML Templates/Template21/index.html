@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML  Javascript Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="./images/logo.png" class="logo" alt="img1">
+                <ul class="main-nav animated slideInDown" id="check-menu">
+                    <li><a href="#">Cake Delivery</a></li>
+                    <li><a href="#">How To Order </a></li>
+                    <li><a href="#">Check More</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+                <a href="#"  class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+            </div>
+        </nav>
+        <div class="main-content-header">
+        <h1> Welcome To <span class="colorChange">Dabha Cafe</span>. <br> House of Cake Lover oo yes</h1>
+        <a href="#" class="btn btn-full"> Click to Order</a>
+        <a href="#" class="btn btn-full-2">Show me More</a>
+        </div>
+    </header>
+
+
+    <script>
+    
+    function slideshow(){
+        var x = document.getElementById('check-menu');
+        if(x.style.display === "none"){
+            x.style.display="block";
+
+        }else{
+            x.style.display="none";
+        }
+    }
+
+    
+    </script>
+    
+</body>
+</html>
+<!-- https://www.youtube.com/watch?v=yfYch-HerV4 -->
+
+

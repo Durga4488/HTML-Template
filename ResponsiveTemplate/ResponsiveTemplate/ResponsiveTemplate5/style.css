@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#all{
+    background: #fff2df;
+}
+#header{
+    background: #0070a6;
+    min-height: 55px;
+    padding: 33px 5%;
+}
+#nav{
+    background: #0095c6;
+    min-height: 60px;
+    padding: 0 5%;
+    display: block;
+    overflow: hidden;
+}
+#main{
+    
+    min-height: 444px;
+    padding: 0 5%;
+}
+#welcome{
+    width:70%;
+    float: left;
+    padding: 0 5% 5% 0;
+}
+#sidebarwidget{
+    width:25%;
+    float: left;
+}
+#footer{
+    clear: both;
+    background: #0070a6;
+    min-height: 22px;
+    padding: 33px 5%;
+    color:#fff;
+    text-align: center;
+}
+
+#header h1{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+#nav ul{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+#nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    float: left;
+}
+#nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+    display: block;
+    padding: 10px 33px;
+}
+#nav ul li a:hover, #nav ul li a.active{
+background: #00a9e1;
+}    
+P{
+    line-height: 25px;
+    text-align: justify;
+}
+.grid1, .grid2{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    line-height: 25px;
+}
+.grid3{
+    float: left;
+    width: 30%;
+    margin:0;
+    line-height: 25px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+div.menu{
+    clear: both;
+    cursor: pointer;
+    padding: 22px;
+    background: #00536f;
+    color:#fff;
+    display: none;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    #nav{
+        padding: 0;
+    }
+    #nav ul{
+        display: none;
+    }
+    #nav ul li {
+     width: 100%;
+    } 
+    div.menu{
+        display: block;
+
+    } 
+    #header h1{
+        text-align: center;
+    }
+    #welcome{
+        width:100%;
+        float:none;
+    }
+    #sidebarwidget{
+        clear: both;
+        width: 100%;
+        float: none;
+    }
+    div.grid1{
+        width: 47%;
+        margin-right: 6%;
+    }
+    div.grid2{
+        width: 47%;
+        margin-right: 0;
+    }
+    div.grid3{
+        width: 100%;
+    }
+    div.grid3 img{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:500px){
+   div.grid1, div.grid2,div.grid3{
+       width:100%;
+   }
+   img{
+       width: 100%;
+   }
+}

@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url(../images/tm-bg.jpg);
+}
+.container {
+	margin: 0 auto 0 auto;
+	width: 1076px;
+	background-color:#fff;
+	font-family: 'Mallanna', sans-serif;
+	font-size:12px;
+}
+.header {
+	height: 125px;
+}
+.middle {
+	height: 1900px;
+	background-color:#ffffff;
+}
+.footer {
+	height: 25px;
+	background-color:#6d6e65;
+	font-family:Lucida Handwriting;
+	font-size:15px;
+	color:white;
+	padding:25px;
+}
+.logo {
+	float: left;
+}
+.social_icons {
+	padding-top: 20px;
+}
+.flow_on {
+	line-height:25px;
+}
+.menu_div {
+}
+.clear {
+	clear: both;
+}
+.menu_list {
+	cellspacing:6;
+	margin: 0 auto;
+	border-top: 2px solid #C11F0F;
+	width:100%;
+	border-bottom: 2px solid #C11F0F;
+	width:98%;
+}
+.menu_list th a:hover {
+	background-color:#c0291a;
+	padding:5px;
+	color:#FFFFFF;
+}
+.menu_list th a {
+	color:#000000;
+}
+a {
+	text-decoration: none;
+}
+.mid_container {
+	padding:5px;
+	height:1900px;
+}
+.Images_row {
+	height:170px;
+}
+.Images_row p:hover {
+	background-color:#c0291a;
+	padding:10px;
+	color:#FFFFFF;
+}
+.ImageDiv {
+	float:left;
+	width:213px;
+	height:170px;
+}
+.ImageDiv img {
+	width:200px;
+	border:1px solid #e6e6e6;
+	padding:4px;
+}
+.ImageDiv p {
+	bottom: 37px;
+	position: relative;
+	background-color: #2f3293;
+	padding: 10px;
+	width: 180px;
+	left: 5px;
+}
+.ImageDiv p a {
+	color:#fff;
+}
+.cat_div {
+	float:left;
+	width:350px;
+	height:500px;
+	padding-right:5px;
+}
+h2, h3, h4, h5, p {
+	margin: 0px !important;
+}
+.cat_title {
+	background-color: #c0291a;
+	padding:6px;
+	font-size:12px;
+	border-bottom: 1px dashed #efefef;
+}
+.cat_title:hover{ background-color:#2f3293;  color:#FFFFFF;} 
+h3 a {
+	color:#FFFFFF;
+}
+.cat_div img {
+	border:1px solid #e6e6e6;
+	padding:4px;
+}
+.cat_img_title {
+	margin: 0px !important;
+	font-size:15px;
+	color:#4581B9;
+	padding: 10px 0px 10px 0px;
+}
+.cat_img_title:hover{color:#333333;}
+.news_div p {
+	padding: 5px 5px 5px 13px;
+	font-size: 14px;
+	background:url(../images/arrow-news.png) no-repeat scroll 0 10px;
+}
+.news_div p a:hover{color:#333333;}
+//background: url(/te/wp-content/themes/tm-may24/images/arrow-news.png) no-repeat scroll 0 5px rgba(0, 0, 0, 0);
+.news_div p a {
+	color:#4581B9;
+}
+.more {
+	float:right;
+	border:1px solid red;
+	border-radius: 8px;
+	padding:4px;
+	margin-top:15px;
+}
+.more a:hover{background-color:#2f3293;  color:#FFFFFF; color:#FFFFFF; padding:5px;}

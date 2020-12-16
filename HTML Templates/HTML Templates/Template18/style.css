@@ -1,0 +1,421 @@
+body{
+    margin: 0;
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Start Header Area */
+.header-area{
+    background: url('./images/background-image-html.jpg')no-repeat scroll 0 0 / 100% 100%;
+    height: 525px;
+}
+.container{
+    max-width:960px;
+    width:100%;
+    margin: 0 auto;
+}
+.header{}
+.header-top{
+    padding:20px 0; 
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.brand a{
+    text-transform: uppercase;
+    color: #999;
+}
+.brand span{
+    font-weight:normal;
+    font-family: Helvetica;
+    font-size: 28px; 
+    color: #fff;
+}
+.menu{
+
+    width: 80%;
+    overflow: hidden;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-transform: uppercase;
+    
+}
+menu ul li:list-child a{
+    padding-right: 0;
+}
+hr{
+    border: 0.3px solid #999;
+}
+.slider {
+    text-align: center;
+    color: #fff;
+}
+.slider h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top:10%; 
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.slider p {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.slider a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #e84545;
+    padding: 10px 30px;
+}
+/* Services Header Area */
+
+.services-area{
+padding: 40px 0;
+overflow: hidden;
+background: #fff;
+}
+.services{}
+.row{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.single-item{
+    width: 31%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin: 1%;
+}
+.single-item h3{
+    color: #2d3033;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+.single-item p{
+    color: #6c7279;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* Image Area */
+.portfolio-area{
+    overflow: hidden;
+}
+.portfolio-row{}
+.portfolio-single-item{
+    width: 25%;
+    float: left;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    height:256px ;
+    cursor: pointer;
+
+}
+.portfolio-single-item:first-child{
+    border-left: none;
+}
+.portfolio-single-item:last-child{
+    border-right: none;
+}
+
+.portfolio-single-item img{
+    width:100%;
+    height: 100%;
+}
+.overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:-100%;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    background: rgba(250, 20, 36, .5);
+    display: none;
+    transition:all 1s;
+
+}
+.overly h3{
+    padding-top: 35%;
+    text-transform: uppercase;
+}
+.overly p{
+    transition: 2s;
+}
+.overly p:hover{
+    font-size:30px;
+    color: #5544ff;
+}
+.portfolio-single-item:hover .overly{
+    display: block;
+    top: 0;
+}
+/* User Area Style */
+
+.user-area{ 
+    padding: 60px 0;
+    background: #fff;
+    clear: both;
+}
+
+.user-all{}
+
+.single-user{
+    width: 23%;
+    float: left;
+    margin: 1%;
+    overflow: hidden;
+}
+.single-user:first-child{
+    margin-left: 0;
+}
+.single-user:last-child{
+    margin-left: 0;
+
+}
+
+
+.single-user img{
+    width: 100%;
+}
+.single-user h2{
+    color: #2d3033;
+    font-size: 22px;
+    padding-top: 15px;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.single-user h4{
+    color: #e84545;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.single-user p{
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 22px;
+}
+.social-link{
+    padding: 20px 0;
+}
+.social-link ul {
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+}
+
+.social-link ul li{
+    float: left;
+    margin-left:5px;
+}
+.social-link ul li a{
+    border: 1px solid #c3c7ca;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.social-link ul li a i{
+    color: #c3c7ca;
+    text-align: center;
+}
+
+
+/* Testimonial Area Style */
+
+.testimonials-area{
+    clear: both;
+}
+
+.testimonials-left{
+    width: 50%;
+    float: left;
+}
+
+.testimonials-left img{
+    width: 100%;
+}
+
+
+.testimonials-right{
+    background:#523549;
+    width:50%;
+    overflow: hidden;
+    color: #fff;
+    padding:44.5px 46px;
+    box-sizing: border-box;
+
+}
+
+.testimonials-right p{
+    width: 40%;
+    font-size: 26px;
+    font-style: italic;
+}
+.testimonials-right h4{
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.circle{
+    padding-bottom:50px;
+    padding-left: 30%; 
+}
+/* .single-circle{
+    width: 10px;
+    height: 10px;
+    background:#7b6073;
+    margin: 0 2px;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.single-circle:nth-of-type(2){
+    background: #fff;
+} */
+
+.circle i{
+    color: #7a5161;
+    font-size: 12px;
+}
+.circle i:nth-of-type(2){
+    color: #fff;
+}
+
+.downloads-area{
+    clear: both;
+    padding: 70px 0;
+    background: #fff;
+}
+
+.download{
+    text-align: center;
+}
+.download h3{
+    color: #2d3033;
+    font-size: 25px;
+    font-weight: normal;
+}
+.download h4{
+color: #2d3033;
+font-size: 13px;
+text-transform: uppercase;
+padding-top: 10px;
+}
+.download a{
+    background: #e84545;
+    padding: 10px 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top:35px; 
+}
+
+/* Footer Style */
+
+.footer-top-area{
+    background: #3a3e63;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.footer-top{
+    
+}
+.footer-top-single{
+    width:33.33%;
+    float: left;
+    overflow: hidden;
+}
+.footer-top-single h3{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.footer-top-single p{
+    text-align: center;
+    color: #9c9fbe;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.share-icon{}
+.share-icon ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.share-icon ul li{
+    display: inline;
+    margin: 0 3px;
+}
+.share-icon ul li a{
+    color: #fffffa;
+    display: inline-block;
+}
+.share-icon ul li a i{
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+/* footer */
+
+.footer-area{
+  
+    padding: 20px 0;
+    background: #313455;
+    overflow: hidden;
+}
+.footer{
+
+}
+.footer p{ 
+    text-align: center;
+    color: #808080;
+    font-size: 14px;
+}
+.footer i{
+ color: rgb(255, 102, 0);
+}
+
+
+@media all and (max-width:400px){
+    body{
+        display: none;
+    }
+}

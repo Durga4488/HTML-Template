@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2,li{
+    font-family: 'Pacifico', cursive;
+}
+.container{
+ 
+    width:100%;
+}
+.wrapper{
+    width: 900px;
+    margin: auto;
+}
+.dark{
+    background-color: #31353d;
+    color: #fff;
+}
+.light{
+    background-color: #e9edf2;
+}
+#top_left{
+    display: inline-block;
+   
+}
+#top_right{
+   float: right; 
+}
+#top_div{
+   height: 40px;
+   line-height: 40px;
+}
+#logo_left{
+    
+    display: inline-block;
+}
+#logo_right{
+    float: right;
+    
+    margin-top:40px 
+}
+#textstyle{
+    height: 30px;
+    border-radius: 8px;
+}
+
+#button{
+    background-color: green;
+    color: #fff;
+    padding: 7px;
+    width: 70px;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+#clear{
+    clear: both;
+}
+ul{
+   
+}
+ul li{
+    width:145px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+ul li a:hover{
+    background-color: orange;
+    color: black;
+}
+#slider_image{
+    
+    height: 430px;
+}
+#slider_image img{
+    width: 868px;
+    height: 350px;
+    border: 1px solid grey;
+    padding: 15px;
+    background-color: #eee;
+    box-shadow: 5px 5px 10px grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+h2{
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+P{
+    text-align: justify;
+}
+#text-image{
+    width: 300px;
+    margin: auto;
+    cursor: pointer;
+    border: 1px solid red;
+}
+#div_text{
+   
+    width:260px;
+    margin: 3px;
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px grey;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+#image-text{
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
+    
+}
+#bottom_div_left{
+
+    
+    width:570px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#bottom_div_left img{
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}
+#bottom_div_right{
+
+    
+   width:290px;
+   float: right;
+   margin-top: 15px;
+}
+#bottom_div_left_text{
+    text-align:left;
+}
+#latest_news img{
+height: 70px;
+width: 70px;
+margin: 3px;
+padding: 3px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+#latest_news{
+    height: 120px;
+}
+#footer_section{
+    width:260px;
+    margin: 3px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+}

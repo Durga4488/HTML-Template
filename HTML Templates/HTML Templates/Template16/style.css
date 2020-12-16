@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #535456;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.container{
+    width: 100%;
+    background-color:#282828;
+    
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto; 
+}
+header{
+    height: 50px;
+    background-color: #171717;
+    margin-bottom: 40px;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo h2{
+    line-height: 50px;
+}
+nav{
+    width: 70%;
+    float: right;
+    margin-right: -10px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    width: 16%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 5px;
+}
+.active {
+    background-color:#0a0e11;
+}
+nav ul li a{
+    color: #535456;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #fff;
+}
+.top-image{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.top-image{
+    box-shadow: 5px 15px 10px #0a0e11;
+}
+.text{
+    margin-bottom: 30px;
+}
+.text p{
+    text-align: center;
+    padding: 0 20px;
+    line-height: 23px;
+}
+.box1{
+    float: left;
+    width: 20%;
+    margin-bottom: 30px;
+}
+.box{
+    padding-left:6%; 
+}
+.box1 img{
+    width: 100%;
+}
+.box1 h3,p{
+    padding-top:10px;
+    line-height: 20px; 
+}
+footer{
+    background-color:#161616;
+    height: 40px; 
+}
+.copyright{
+    width: 30%;
+    float: left;
+}
+.copyright p{
+    line-height: 30px;
+    margin-left: 100px;
+}
+.icons{
+    float: left;
+    width: 70%;
+    height: 40px;
+}
+i{
+    float: right;
+    margin-right:20px;
+   
+}
+i img{
+    width: 32px;
+    padding: 0 5px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+

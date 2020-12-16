@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #3c3c3c;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    width: 100%;
+
+}
+.wrapper{
+    width: 950px;
+    margin: 0 auto;
+
+}
+#top_bg {
+    background: url("images/topmenu-bg.png");
+    height: 35px;
+}
+#top_right{
+    float: right;
+    margin-right:150px;
+}
+#top_right ul li{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 90px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+#top_right ul li:hover{
+    background-color: #af2929;
+
+}
+.clear{
+    clear: both;
+}
+#logo_left{
+
+    display: inline-block;
+    height: 100px;
+}
+#logo_left img{
+    margin-top: 8px;
+}
+#logo_right{
+    float: right;
+
+}
+#bottom{
+    border-bottom: 4px solid #af2929;
+
+}
+#logo_right ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+#logo_right ul li a{
+    color: #4d4d4d;
+}
+#logo_right ul li a:hover{
+    color:#af2929 ;
+}
+#active{
+    background: url("images/menu-hover-bg.jpg")bottom center no-repeat;
+    padding-bottom: 42px;
+}
+#image_bg{
+    background: url("images/subhead-bg.gif");
+    border-bottom: 1px solid grey;
+    height: 364px;
+    margin-bottom: 20px;
+}
+#image_bg img{
+    margin-left: 35px;
+}
+#light{
+    border: 1px solid #d4d4d4;
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+
+}
+#main{
+
+    padding: 15px;
+    height: 450px;
+
+}
+.image_div {
+    width: 299px;
+    margin-left: 5px;
+    height: 450px;
+    display: inline-block;
+
+
+
+}
+.image_div img{
+    width: 290px;
+    position: absolute;
+
+}
+
+.textup{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    margin-top: 205px;
+    overflow: hidden;
+    letter-spacing: 1px;
+    width:269px;
+    height: 50px;
+
+}
+.para{
+    font-size: 15px;
+    margin-bottom: -12px;
+    margin-top: 5px;
+
+
+}
+#text{
+    position: relative;
+    bottom: -285px;
+    font-size: 15px;
+    color: grey;
+}
+
+.right_get{
+
+   margin-top: 315px;
+}
+.right_get a{
+    color: #0f0f0f;
+    background: url(images/right_arrow.png) no-repeat center right 0em;
+    padding-right: 20px;
+}
+.right_get a:hover{
+    text-decoration: underline;
+    color: #af2929;
+}
+#left_images{
+    width: 600px;
+    height: 475px;
+    float: left;
+}
+h3{
+
+    color:#af2929 ;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+.line{
+    background: url("images/masters-head-bg.png") repeat-x scroll center top;
+
+}
+#image_left{
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    background-color: #f8f8f8;
+    overflow: hidden;
+    height: 170px;
+    margin-bottom: 20px;
+
+}
+#image_left img{
+
+    position: absolute;
+
+}
+.box{
+    width: 130px;
+    height: 165px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.box img{
+    width: 130px;
+    height: 120px;
+
+}
+.texton{
+    position: absolute;
+    padding-top: 90px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.king{
+ padding-top: 130px;
+    color: #af2929;
+    text-transform: uppercase;
+}
+.king span{
+    color: #0f0f0f;
+    font-size: 12px;
+    margin-top: 4px;
+}
+h3{
+    font-weight: normal;
+    font-size: 16px;
+
+}
+.border_top{
+    padding: 15px;
+    border: 1px solid #d4d4d4;
+    background-color: #f8f8f8;
+    height: 130px;
+    overflow: hidden;
+
+}
+.div_img{
+    width:130px;
+    float: left;
+}
+.div_para{
+text-align: justify;
+    overflow: hidden;
+
+
+}
+.strong{
+    margin-top: 45px;
+    overflow: hidden;
+    color: #4d4d4d;
+    font-weight: normal;
+}
+.right_div{
+
+    width: 330px;
+    float: right;
+
+}
+.facebook{
+margin-bottom: 15px;
+
+}
+.image_lest{
+    border: 1px solid #d4d4d4;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 8px 10px;
+
+
+}
+.image_lest h4{
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+
+

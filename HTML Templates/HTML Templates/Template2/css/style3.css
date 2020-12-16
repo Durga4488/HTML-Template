@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+.cantainer {
+	width:1076px;
+	height:auto;
+	background: url(../images/tm-bg.jpg);
+	margin:0px auto;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.header {
+	height:130px;
+	background-color:#FFFFFF;
+}
+.middle {
+	height:2655px;
+	background-color:#FFFFFF;
+}
+.footer {
+	height:264px;
+	color:#bbb;
+	background:url(../images/footer-bg.png) repeat;
+	overflow:hidden;
+}
+.logo {
+	float:left
+}
+.follow_on {
+	line-height:72px;
+}
+.social_logo {
+	margin-top:-21px;
+}
+.menu_list {
+	margin:0px;
+	border-top:2px solid #FF0000;
+	border-bottom:2px solid #FF0000;
+	padding:5px;
+	width:99%;
+}
+.menu_list th a:hover {
+	background-color:#FF0000;
+	padding:10px;
+}
+.menu_list th a {
+	color:#000000;
+}
+a {
+	text-decoration: none;
+}
+.header_1 {
+	height:90px;
+	background-color:#fff;
+}
+.wide_content {
+	height:2550px;
+	width:1066px;
+	margin:5px;
+}
+.image_div {
+	height:216px;
+	background-color:#FFF;
+}
+.image_div h3 {
+	width:100px;
+	background-color:#FF0000;
+	padding:4px;
+	text-align:center;
+	color:#fff;
+}
+.images_row {
+	float:left;
+	width:209px;
+	padding:2px;
+	margin-top:-15px;
+	height:168px;
+}
+.images_row p:hover {
+	background-color:#FF0000;
+	padding:10px
+}
+.images_row p a {
+	color:#fff;
+}
+.images_row img {
+	width: 200px;
+	padding: 4px;
+	border: 1px solid #e6e6e6;
+}
+.images_row p {
+	position: relative;
+	background-color: #0033FF;
+	padding: 10px;
+	bottom: 50px;
+	width: 189px;
+}
+.news_container {
+	height:360px;
+	float:left;
+	padding:5px;
+}
+.news_header {
+	font-size:15px;
+	width:335px;
+	background-color:#FF0000;
+	padding:5px;
+}
+.news_header a {
+	color:#fff;
+}
+.news_div p {
+	background:url(../images/arrow-news.png) no-repeat scroll 0 3px;
+	font-size: 14px;
+	padding: 0px 0px 3px 11px;
+}
+.news_div p a:hover {
+	color:#000000;
+}
+.news_div1 {
+	height: 360px;
+}
+.categiry_div {
+	height:600px;
+	float:left;
+	padding:7px;
+}
+.categiry {
+	width:340px;
+	height:485px;
+}
+.cat_title {
+	background-color:#FF0000;
+	padding:8px;
+	font-size:15px;
+	border-bottom:1px dashed #efefef;
+}
+.cat_title:hover {
+	background-color:#0000FF;
+}
+.cat_title a {
+	color:#FFFFFF;
+}
+.cat_img {
+	width:330px;
+	height:215px;
+	padding:2px;
+	bottom:0px;
+}
+.cat_img h3 a:hover {
+	color:#333333;
+}
+.cat_img img {
+	width: 325px;
+	padding: 4px;
+	border: 1px solid #e6e6e6;
+	margin-top:-9px;
+}
+.cat_img h3 {
+	font-size:15px;
+}
+.more_post {
+	width:340px;
+	height:235px
+}
+.more_post h4 {
+	background:url(../images/arrow-news.png) no-repeat scroll 0 3px;
+	font-size: 12px;
+	padding:0px 11px;
+}
+.more_post h4 a:hover {
+	color:#333333;
+}
+.space {
+	width: 1066px;
+	height: 90px;
+	margin: 0px auto;
+	background: #fff;
+	clear: both;
+}
+.click_box {
+	margin-top:85px;
+	padding:5px;
+	border:1px solid #FF0000;
+	float:right;
+	border-radius:8px;
+}
+.click_box a:hover {
+	background-color:#0033FF;
+	padding:4px;
+	color:#FFFFFF;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Roboto;
+	font-weight: 500px;
+}
+.sub_footer {
+	padding:0px 30px;
+	overflow:hidden;
+}
+.quick {
+	height:224px;
+	float:left;
+	width:250px;
+	overflow:hidden;
+}
+.quick p {
+	color:#cdcdcd;
+	font-size:14px;
+	margin-top:5px;
+}
+footer_list {
+	width:130px;
+	padding-top:2px;
+}
+.footer_list a {
+	color:#bbb;
+	font-size:12px;
+}
+.social_twitter {
+	padding-bottom:10px;
+	padding-left:30px;
+	background: url(../images/twitter_logo.png) no-repeat left;
+}
+.social_fb {
+	padding-bottom:10px;
+	padding-left:30px;
+	background: url(../images/fb.png) no-repeat;
+}
+.social_google {
+	padding-bottom:10px;
+	padding-left:30px;
+	background: url(../images/gplus.png) no-repeat left;
+}
+.social_contact {
+	padding-bottom:10px;
+	padding-left:30px;
+	background: url(../images/email16.png) no-repeat left;
+}
+.small_footer {
+	width:1066px;
+	padding:2px;
+	height:50px;
+}
+.right {
+	padding:1px;
+	width:300px;
+	height:35px;
+}
+.right_footer {
+	width:500px;
+	float:right;
+	margin-right:-190px;
+	margin-top:0px;
+}
+.right_footer a {
+	color:#bbb;
+}
+.right a {
+	color:#bbb;
+}

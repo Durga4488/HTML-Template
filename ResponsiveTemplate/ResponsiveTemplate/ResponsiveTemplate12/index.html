@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Responsive Template</title>
+
+    <!--Google Fonts-->
+    
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+     <!--Custom Stylesheet-->
+     <link rel="stylesheet" href="style.css">
+
+     <!--Javascript-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+    <!--Vertical Slidebar-->
+    <nav class="side-navbar">
+        <div class="logo">
+            <h1 title="Logo">HTML Template</h1>
+        </div>
+        <ul>
+            <li><a href="index.html"  class="active" ><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fas fa-tasks"></i> Projects</a></li>
+            <li><a href="#"><i class="fas fa-code"></i> Source Code</a></li>
+            <li><a href="#"><i class="fas fa-info"></i> About</a></li>
+        </ul>
+    </nav>
+    <!--End Vertical Slidebar-->
+
+    <!--Page View-->
+    <main class="page-view">
+        <header>
+            <div class="menu">
+                <i class="fas fa-list"></i>
+            </div>
+            <div class="header-logo">
+                <h1>HTML Template</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="disabled-link"><a href="#"><i class="fas fa-user"></i> Login</a></li>
+                    <li class="disabled-link"><a href="#"><i class="fas fa-unlock-alt"></i> Register</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container">
+            <div class="box">
+                <div><img src="./images/PHP.png" alt="image"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam adipisci facere pariatur ducimus recusandae ab, voluptatem eum odit earum placeat inventore quasi aut nostrum possimus explicabo veritatis asperiores atque mollitia reprehenderit necessitatibus similique voluptate eaque nemo optio? Cumque amet sed fugit doloribus dolorum, nisi nam. Delectus cupiditate quae nisi dolorem!</p>
+            </div>
+            <div class="box">
+                <div><img src="./images/jquery.png" alt="image"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rem pariatur quidem omnis hic quaerat nihil numquam, delectus harum fugit eveniet eligendi laborum architecto? Alias maxime perferendis autem rem quas temporibus itaque consequatur aliquid, consequuntur doloribus excepturi, quasi ipsam voluptatum officia in maiores expedita, eligendi totam. Iure blanditiis, asperiores assumenda provident sunt minima itaque hic repellat odio! Laboriosam hic soluta, fugit, accusamus alias laudantium quos rem nisi non consequuntur ea.</p>
+            </div>
+            <div class="box">
+                <div><img src="./images/ajax.png" alt="image"></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores obcaecati beatae autem neque necessitatibus aperiam fugiat, nobis odit, tenetur recusandae at? Ipsa aliquam sed pariatur nostrum quae eos architecto sunt debitis maxime, blanditiis sint laborum alias. Iusto, facilis neque. Dolorem non recusandae dignissimos provident repellendus fugit exercitationem cumque iste quae ratione, maxime itaque, excepturi blanditiis natus ab explicabo, quibusdam beatae.</p>
+            </div>
+        </section>
+        <div style="clear: both"></div>
+
+        <section class="social-container">
+            <aside>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                </ul>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; Copyright HTML Template</p>
+        </footer>
+    </main>
+    <!--End Page View-->
+
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $(".menu").click(function(){
+          $('.side-navbar').toggleClass("active-navbar");
+          $('.page-view').toggleClass("shift-page");
+          $('.header-logo').toggleClass("disabled-logo");
+      });
+  });
+
+</script>
+
+<!-- https://www.youtube.com/watch?v=DlqjQ1lvF0E -->

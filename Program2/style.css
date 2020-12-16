@@ -1,0 +1,192 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.social-icons{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.social-icons a{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 12px;
+padding-bottom: 10px;
+color: #ff0000;
+font-size: 1.6rem;
+}
+.social-icons a.icon{
+    background: blue;
+    color: #fff;
+    border-radius:0 0 5px 5px; 
+
+}
+
+/* Navbar */
+
+.navbar{
+    background: transparent;
+    border: none;
+    padding-top: 10px;
+}
+.navbar .navbar-brand{
+    color: blue;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.navbar .navbar-brand:hover{
+ color: blue;
+}
+.navbar .navbar-nav li a{
+    color: blue;
+    font-size: 2rem;
+
+}
+.navbar .navbar-nav li a:hover{
+    color: blue;
+}
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover {
+    color:#ff0000;
+    font-size: 2rem;
+    background:transparent;
+}
+
+/* section 1 */
+.section1{
+    padding-bottom: 50px;
+}
+.section1 img{
+  height: 500px !important;
+  width: 100%;
+
+}
+.section1 .carousel-inner{
+    height: 500px;
+}
+
+/* Section2 */
+
+.section2{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.section2 .section-heading{
+    /* width: 100%; */
+
+}
+.section-heading h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #ff0000;
+}
+.section-heading .underline{
+    width: 450px;
+    height: 5px;
+    margin: 15px auto;
+    border-radius: 5px;
+    background: blue;
+}
+.section-heading p{
+    font-size: 2rem;
+    color: #BDB76B;
+    letter-spacing: 0.2rem;
+}
+
+
+.column{
+    padding-bottom: 50px
+}
+.developers{
+    padding-bottom: 10px;
+}
+
+.developers .fab{
+    color: blue;
+    font-size: 10rem;
+}
+.developers h3{
+    color: #6B8E23;
+    padding: 10px 0;
+    font-size: 3rem;
+}
+
+/* Section 3 */
+
+.section3{
+    padding-bottom: 50px;
+}
+
+.section3 .picture-text{
+    padding: 10px;
+}
+.picture-text h4{
+    font-weight: bold;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    color: #ff0000;
+    
+}
+.picture-text p{
+    color: #6B8E23;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.picture-text .btn{
+    color:#006400;
+    font-size: 2rem;
+}
+
+/* Section 4 */
+
+.section4{
+    padding-bottom: 50px
+}
+
+.img{
+    position: relative;
+}
+.img-text{
+    position: absolute;
+    top:75%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    /* width:100%; */
+    margin: auto;
+    display: block;
+}
+.img-text h2{
+    color: #0000FF;
+    width: 100%;
+    font-weight: bold;
+}
+.img-text p{
+    font-size: 1.5rem;
+    color: #BDB76B;
+}
+.developer{
+    padding-top: 0px;
+    cursor: pointer;
+}
+.developer .underline{
+    width: 200px;
+    height: 5px;
+    margin: 8px 0 10px 10px;
+    border-radius: 5px;
+    background:#ff0000;
+}
+.developer h2{
+    color: #6B8E23;
+    font-weight: bold;
+}
+.developer ol li{
+    line-height: 2.8rem;
+    color: #BDB76B;
+    font-size: 1.5rem;
+}
+.developer ol li:hover{
+    color:#6B8E23;
+
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Lobster|Lobster+Two|Satisfy|Tangerine');
+body{
+    
+    font-size: 1em;
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+
+}
+header h1{
+    
+    font-family: 'Lobster', cursive;    
+    font-size: 4em;
+    text-transform: uppercase;
+
+}
+
+nav{
+    line-height: 30px;
+    background: #eeeeee;
+    width: 150px;
+    height: 500px;
+    float: left;
+    padding: 5px;
+}
+nav ul{
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+        font-family: 'Satisfy', cursive;
+        font-size: 2em;
+        text-align: center;
+        padding: 20px 0 0;
+
+
+    
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color: blue;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+section{
+    width:500px;
+    float: left;
+    padding: 45px;
+    margin-top: 50px
+}
+section img{
+    width: 100%;
+}
+h2{
+    font-family: 'Lobster Two', cursive;
+padding: 10px;
+font-size: 2em;
+}
+h2:hover{
+    color: blue;
+    text-decoration: underline;
+}
+footer{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1em;
+    clear: both;
+    font-style: italic;
+
+}
+p{
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Tangerine', cursive;
+    line-height: 30px;
+    font-size: 35px;
+    padding: 5px;
+
+}
